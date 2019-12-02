@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.c1bf55d8.chunk.css",
-    "main.js": "/Portfolio/static/js/main.a233e257.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.a233e257.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.6a869909.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.6a869909.js.map",
-    "static/css/2.7aa6f31f.chunk.css": "/Portfolio/static/css/2.7aa6f31f.chunk.css",
-    "static/js/2.365de378.chunk.js": "/Portfolio/static/js/2.365de378.chunk.js",
-    "static/js/2.365de378.chunk.js.map": "/Portfolio/static/js/2.365de378.chunk.js.map",
-    "index.html": "/Portfolio/index.html",
-    "precache-manifest.0c43e3b049106af419651f5af8e84c43.js": "/Portfolio/precache-manifest.0c43e3b049106af419651f5af8e84c43.js",
-    "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/2.7aa6f31f.chunk.css.map": "/Portfolio/static/css/2.7aa6f31f.chunk.css.map",
-    "static/css/main.c1bf55d8.chunk.css.map": "/Portfolio/static/css/main.c1bf55d8.chunk.css.map",
-    "static/media/index.css": "/Portfolio/static/media/CircularSpUIm5-Book.bdd2d58b.otf"
+    "main.css": "/static/css/main.6295874b.chunk.css",
+    "main.js": "/static/js/main.a233e257.chunk.js",
+    "main.js.map": "/static/js/main.a233e257.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8896086d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8896086d.js.map",
+    "static/css/2.7aa6f31f.chunk.css": "/static/css/2.7aa6f31f.chunk.css",
+    "static/js/2.365de378.chunk.js": "/static/js/2.365de378.chunk.js",
+    "static/js/2.365de378.chunk.js.map": "/static/js/2.365de378.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.2e1381ab3ce1ab8e1237883a6a62b22e.js": "/precache-manifest.2e1381ab3ce1ab8e1237883a6a62b22e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.7aa6f31f.chunk.css.map": "/static/css/2.7aa6f31f.chunk.css.map",
+    "static/css/main.6295874b.chunk.css.map": "/static/css/main.6295874b.chunk.css.map",
+    "static/media/index.css": "/static/media/CircularSpUIm5-Book.bdd2d58b.otf"
   },
   "entrypoints": [
-    "static/js/runtime-main.6a869909.js",
+    "static/js/runtime-main.8896086d.js",
     "static/css/2.7aa6f31f.chunk.css",
     "static/js/2.365de378.chunk.js",
-    "static/css/main.c1bf55d8.chunk.css",
+    "static/css/main.6295874b.chunk.css",
     "static/js/main.a233e257.chunk.js"
   ]
 }
