@@ -59,7 +59,7 @@ class Spotify extends Component {
             creative outlets that helped me balance my aptitude for math,
             analytics and business with my love for creating. It was a textbook
             struggle between left-brain / right-brain. I wasn’t satisfied with
-            just one side.
+            just one side..
             <br />
             <br />
             After moving into the professional world, that balance was thrown
