@@ -4,11 +4,17 @@
   flex-direction: column;
   height: 100%;
   width: 100%;
+
 }
 
 .app-align {
   display: flex;
-  height: 100vh
+  height: 100vh;
+  background-image: url("https://i.imgur.com/H6rKb5U.png");
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-position: 30vw
+
 }
 
 .content-page {
@@ -32,6 +38,7 @@
   width: 70vw;
   border-right-style: solid;
   border-right-width: 1px;
+
 
 }
 
@@ -107,7 +114,8 @@
   font-size: 20px;
   padding-left: 20px;
   background-color: white;
-  text-align: center
+  text-align: center;
+  margin-bottom: 0
 }
 /* ---------------PROJECTS PAGE --------------------*/
 
@@ -493,6 +501,7 @@
   background: white;
   border-right-style: solid;
   border-right-width: 1px;
+
 }
 
 .nav-container-milo {
@@ -501,8 +510,8 @@
   flex-direction: column;
   justify-content: space;
   height: 100vh;
-  background: #191414;
-  color: rgb(255, 255, 255);
+  background: #FECC15;
+  color:black;
   align-items: center;
   border-right-style: solid;
   border-right-width: 7px;
@@ -513,7 +522,7 @@
 
 .nav-style-milo {
   display: flex;
-  color: white;
+  color: black;
   text-decoration: none;
   transition-duration: 0.3s;
 }
@@ -525,8 +534,8 @@
 
 
 .milo-header-container{
-  background-color: #F8F2ED;
-  /* background-color: #FECC15; */
+  background-color: #FFFF;
+
   display: flex;
   justify-content: center;
 }
@@ -535,12 +544,16 @@
   margin-bottom: 5vh;
   margin-left: 5px;
   margin-right: 5px;
-  font-family: 'Circular-header';
-  font-size: 50px;
+  font-family: 'Milo-bold';
+  font-size: 62px;
+  line-height: 72px;
+  font-weight: 600;
+  text-rendering: optimizeLegibility;
   color: black;
-  font-weight: 900;
   align-items: center;
   justify-content: center;
+  max-width: 650px;
+  padding: 0 78px;
 }
 
 .milo-header-container {
@@ -570,11 +583,11 @@
 }
 
 .milo-body-container{
-  background-color: #FECC15;
-  /* background-color: #F8F2ED; */
+  background-color: #F8F2ED;
   display: "flex";
   align-content: "center";
-  padding-bottom: 30px
+  padding-bottom: 30px;
+  padding: 0 78px;
 }
 
 .milo-images{

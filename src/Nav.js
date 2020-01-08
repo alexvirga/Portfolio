@@ -16,13 +16,13 @@ class Nav extends Component {
 
   textChange = () => {
     if (this.backgroundChange() === "nav-container-milo") {
-      return "nav-style-spotify";
+      return "nav-style-milo";
     } else return "nav-style";
   };
 
   nameChange = () => {
     if (this.backgroundChange() === "nav-container-milo") {
-      return "nav-name-spotify";
+      return "nav-name-milo";
     } else return "nav-name";
   };
 

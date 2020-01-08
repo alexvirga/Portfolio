@@ -37,7 +37,7 @@ class Milo extends Component {
         </div>
 
         <div className="milo-header-container">
-          <h1 className="milo-header-title"> Why milo? </h1>
+          <h1 className="milo-header-title"> Milo gives you more </h1>
         </div>
 
         <div className="milo-body-container">
@@ -102,7 +102,7 @@ class Milo extends Component {
         <div style={{display: "flex", alignItems: "center", flex: "1"}}>
             <img
               style={{ height: "70px", marginLeft: "3px" }}
-              src="iconfinder_rgb_1054993.png"
+              src="eyesmilo.png"
             />
             <div style={{display: "flex", flexDirection: "column", marginLeft: "3px"}}>
             <p style={{fontFamily: "Circular-p", fontWeight:"700", marginBottom: "1px"}}> Inclusive</p>
@@ -112,28 +112,30 @@ class Milo extends Component {
             </div>
 
 
-            <div style={{display: "flex", alignItems: "center", flex: "1"}}>
-          <img
-              style={{ height: "70px", marginLeft: "3px", display: "flex" }}
-              src="iconfinder_door_1055069.png"
-            />
-            <div style={{display: "flex", flexDirection: "column", marginLeft: "3px"}}>
-            <p style={{fontFamily: "Circular-p", fontWeight:"700", marginBottom: "1px"}}> Accessibility</p>
-            
-            <p style={{fontFamily: "Circular-p"}}> Made for everyone </p>
-            </div>
-            </div>
 
 
             <div style={{display: "flex", alignItems: "center", flex: "1"}}>
             <img
               style={{ height: "70px", marginLeft: "3px" }}
-              src="iconfinder_ufo_1054946.png"
+              src="miloinclusive.png"
             />
             <div style={{display: "flex", flexDirection: "column", marginLeft: "3px"}}>
             <p style={{fontFamily: "Circular-p", fontWeight:"700", marginBottom: "1px"}}> Different</p>
             
             <p style={{fontFamily: "Circular-p"}}> In a good way </p>
+            </div>
+            </div>
+
+
+            <div style={{display: "flex", alignItems: "center", flex: "1"}}>
+          <img
+              style={{ height: "70px", marginLeft: "3px", display: "flex" }}
+              src="accessibility.png"
+            />
+            <div style={{display: "flex", flexDirection: "column", marginLeft: "3px"}}>
+            <p style={{fontFamily: "Circular-p", fontWeight:"700", marginBottom: "1px"}}> Accessibility</p>
+            
+            <p style={{fontFamily: "Circular-p"}}> Made for everyone </p>
             </div>
             </div>
 
