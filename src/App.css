@@ -482,6 +482,128 @@
   margin-right: 15%
 }
 
+/* ---------------MILO PAGE --------------------*/
+
+
+.content-page-milo {
+  display: flex;
+  width: 70vw;
+  flex-direction: column;
+  justify-content: space;
+  background: white;
+  border-right-style: solid;
+  border-right-width: 1px;
+}
+
+.nav-container-milo {
+  display: flex;
+  width: 30vw;
+  flex-direction: column;
+  justify-content: space;
+  height: 100vh;
+  background: #191414;
+  color: rgb(255, 255, 255);
+  align-items: center;
+  border-right-style: solid;
+  border-right-width: 7px;
+  border-color: #191414;
+  font-family: 'Nunito', sans-serif;
+}
+
+
+.nav-style-milo {
+  display: flex;
+  color: white;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+
+.nav-style-milo:hover {
+  transform: scale(1.2);
+  text-decoration: none;
+}
+
+
+.milo-header-container{
+  background-color: #F8F2ED;
+  /* background-color: #FECC15; */
+  display: flex;
+  justify-content: center;
+}
+.milo-header-title{
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: 'Circular-header';
+  font-size: 50px;
+  color: black;
+  font-weight: 900;
+  align-items: center;
+  justify-content: center;
+}
+
+.milo-header-container {
+  justify-content: center;
+}
+
+.milo-body-title{
+  display: flex;
+  margin-top: 0vh;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: 'Circular-header';
+  font-size: 50px;
+  color:#191414;
+  font-weight: 900;
+}
+
+.nav-name-milo {
+  font-size: 5vmin;
+  display: flex;
+  flex: 1;
+  width: 100%;
+  padding-top: 7vh;
+  justify-content: center;
+  font-family: 'Circular-navname';
+  text-align: center;
+}
+
+.milo-body-container{
+  background-color: #FECC15;
+  /* background-color: #F8F2ED; */
+  display: "flex";
+  align-content: "center";
+  padding-bottom: 30px
+}
+
+.milo-images{
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  margin-top: 3vh;
+}
+
+.milo-footer-container{
+ 
+  display: flex;
+  margin-top: 4px; 
+  justify-content: left;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px
+}
+
+
+
+.milo-p{
+  font-family: "Circular-p";
+  align-content: center;
+  margin-left: 15%;
+  margin-right: 15%
+}
+
 
 
 

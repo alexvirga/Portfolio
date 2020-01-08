@@ -9,19 +9,19 @@ class Nav extends Component {
       .toString()
       .split("/")
       .pop();
-    if (currentLocation === "spotify") {
-      return "nav-container-spotify";
+    if (currentLocation === "milo") {
+      return "nav-container-milo";
     } else return "nav-container";
   };
 
   textChange = () => {
-    if (this.backgroundChange() === "nav-container-spotify") {
+    if (this.backgroundChange() === "nav-container-milo") {
       return "nav-style-spotify";
     } else return "nav-style";
   };
 
   nameChange = () => {
-    if (this.backgroundChange() === "nav-container-spotify") {
+    if (this.backgroundChange() === "nav-container-milo") {
       return "nav-name-spotify";
     } else return "nav-name";
   };
@@ -48,6 +48,9 @@ class Nav extends Component {
           </NavLink> */}
           <Link className={this.textChange()} to="/spotify">
             <li style={{ padding: "5px" }}>Spotify</li>
+          </Link>
+          <Link className={this.textChange()} to="/milo">
+            <li style={{ padding: "5px" }}>Milo</li>
           </Link>
         </div>
         <div className="socials">
