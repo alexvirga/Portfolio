@@ -67,6 +67,7 @@ class About extends Component {
         <div>
         <h2 style={{fontFamily: "Circular-header", fontSize: "20px", textAlign: "center", marginBotton: "0px"}}> Other</h2>
         <ul style={{listStyle: "none", textAlign: "center"}}>
+          <li> AWS </li>
           <li> Git </li>
           <li> Heroku </li>
           <li> Logic Pro </li>

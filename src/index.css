@@ -32,5 +32,20 @@ code {
   src: url("./fonts/CircularSpUI-Book.otf") format("opentype");
 }
 
+@font-face {
+  font-family: "Milo-bold";
+  src: url("./fonts/milo-bold-condensed.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Milo-body";
+  src: url("./fonts/milo-body.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Milo-medium";
+  src: url("./fonts/milo-medium.otf") format("opentype");
+}
+
 
 

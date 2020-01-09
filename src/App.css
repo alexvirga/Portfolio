@@ -4,11 +4,16 @@
   flex-direction: column;
   height: 100%;
   width: 100%;
+
 }
 
 .app-align {
   display: flex;
-  height: 100vh
+  height: 100vh;
+  background-size: 10%;
+  background-repeat: no-repeat;
+  background-position: 30vw
+
 }
 
 .content-page {
@@ -32,6 +37,7 @@
   width: 70vw;
   border-right-style: solid;
   border-right-width: 1px;
+
 
 }
 
@@ -107,7 +113,8 @@
   font-size: 20px;
   padding-left: 20px;
   background-color: white;
-  text-align: center
+  text-align: center;
+  margin-bottom: 0
 }
 /* ---------------PROJECTS PAGE --------------------*/
 
@@ -482,9 +489,236 @@
   margin-right: 15%
 }
 
+/* ---------------MILO PAGE --------------------*/
+
+
+.content-page-milo {
+  display: flex;
+  width: 70vw;
+  flex-direction: column;
+  justify-content: space;
+  background: white;
+  border-right-style: solid;
+  border-right-width: 1px;
+
+}
+
+.nav-container-milo {
+  display: flex;
+  width: 30vw;
+  flex-direction: column;
+  justify-content: space;
+  height: 100vh;
+  background: #FECC15;
+  color:black;
+  align-items: center;
+  border-right-style: solid;
+  border-right-width: 7px;
+  border-color: #191414;
+  font-family: "Milo-medium";
+}
+
+
+.nav-style-milo {
+  display: flex;
+  color: black;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+
+.nav-style-milo:hover {
+  transform: scale(1.2);
+  text-decoration: none;
+  color: black
+}
+
+
+.milo-header-container{
+  /* background-color: #FFFF; */
+  background-color: #F8F2ED;
+  padding: 0 78px;
+  padding-top: 60px;
+  display: flex;
+  
+
+}
+
+/* .blob{
+  position: absolute;
+  right: -14px;
+  top: -143px;
+  width: 369px;
+  height: 513px;
+  background-image: url(https://i.imgur.com/NGUpN59.png);
+  background-size: 239px;
+  background-repeat: no-repeat;
+  transform: rotate(90deg);
+
+} */
+.milo-header-title{
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: 'Milo-bold';
+  font-size: 62px;
+  line-height: 72px;
+  font-weight: 600;
+  text-rendering: optimizeLegibility;
+  color: black;
+  z-index: 1;
+
+
+  
+}
+
+
+
+.milo-body-title{
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: 'Milo-bold';
+  font-size: 62px;
+  line-height: 72px;
+  font-weight: 600;
+  text-rendering: optimizeLegibility;
+  color: black;
+  z-index: 1;
+
+
+}
+
+.nav-name-milo {
+  font-size: 5vmin;
+  display: flex;
+  flex: 1;
+  width: 100%;
+  padding-top: 7vh;
+  justify-content: center;
+  text-align: center;
+  font-family: "Milo-medium"
+}
+
+.milo-body-container{
+  position: relative;
+  justify-content: center;
+  /* background-color: #F8F2ED; */
+  background-color: #FFFF;
+  display: "flex";
+  align-content: "center";
+  padding-bottom: 30px;
+  padding: 0 78px;
+}
+
+.milo-images{
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  margin-top: 3vh;
+}
+
+.milo-footer-container{
+ 
+  display: flex;
+  margin-top: 4px; 
+  justify-content: left;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px
+}
+
+
+
+.milo-p{
+  font-family: "Milo-body";
+  align-content: center;
+
+}
+
 
 
 
 ul {
   padding-inline-start: 0px;
 }
+
+.leash {
+  position: relative;
+  z-index: 0
+}
+
+.leash .leash-part-one {
+  position: relative;
+  background-color: #FFFF;
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: -200px;
+  z-index: -1
+}
+
+.leash .leash-part-one .leash-part-two {
+  position: relative;
+  background-color: #F8F2ED;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin: auto;
+  top: 100px;
+  z-index: 0
+}
+
+.leash .leash-part-three {
+  position: relative;
+  background-color: #E8C2A3;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin: auto;
+  transition-duration: 0.3s;
+  z-index: 0
+}
+
+.content-page-milo ::selection {
+  background: #FECC15; /* WebKit/Blink Browsers */
+}
+
+.leash-part-three:hover {
+  background-color: #FECC15
+  
+}
+
+.leash.large-background {
+  position: absolute;
+  top: 0;
+  right: 76px;
+  animation: MoveCollar 2s infinite linear
+}
+
+@keyframes MoveCollar {
+  0% {
+      transform: rotate(0deg)
+  }
+
+  25% {
+      transform: rotate(10deg)
+  }
+
+  50% {
+      transform: rotate(0deg)
+  }
+
+  75% {
+      transform: rotate(-10deg)
+  }
+
+  100% {
+      transform: rotate(0deg)
+  }
+}
+
+
