@@ -7,7 +7,6 @@ import Milo from "./Milo";
 
 import Spotify from "./Spotify";
 import Projects from "./Projects";
-import Experience from "./Experience";
 import {useTransition, animated} from 'react-spring';
 
 import { Route, Switch, useLocation } from "react-router-dom";

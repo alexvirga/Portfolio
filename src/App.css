@@ -27,6 +27,8 @@
   border-right-width: 3px;
 }
 
+
+
 /* ---------------ABOUT PAGE --------------------*/
 
 
@@ -492,6 +494,10 @@
 /* ---------------MILO PAGE --------------------*/
 
 
+
+
+
+
 .content-page-milo {
   display: flex;
   width: 70vw;
@@ -500,6 +506,7 @@
   background: white;
   border-right-style: solid;
   border-right-width: 1px;
+  overflow: hidden
 
 }
 
@@ -720,5 +727,31 @@ ul {
       transform: rotate(0deg)
   }
 }
+
+@media (max-width: 700px){ .milo-p
+  {
+      font-size: 18px;
+  
+  }}
+  
+  @media (max-width: 700px){ .milo-body-container
+    {
+      padding: 20px;
+    
+    }}
+
+    @media (max-width: 700px){ .milo-header-container
+      {
+        padding: 20px;
+      
+      }}
+
+      @media (max-width: 700px){ .about-page-p
+        {
+            font-size: 18px;
+            margin: 20px;
+            text-align: left
+        
+        }}
 
 

@@ -55,16 +55,22 @@ class Milo extends Component {
           <h1 className="milo-body-title"> Stack + Culture</h1>
 
           <p className="milo-p">
-            I won't bore you with the tech/career fluff, as I'm sure you've heard enough by now. We work in the same stack. This position is a great fit for me. I'd like to use this section to talk about what I've been up to recently, and how it can contribute to Milo.
+            I won't bore you with the tech/career fluff, as I'm sure you've heard enough by now. We work in the same stack. This position is a great fit for me. Instead, I'd like to use this section to talk about what I've been up to recently, and how it can contribute to Milo.
             
             <br />
             <br />
-            I'm currently working on AI/ML solutions using AWS for React Native applications. On Thursday (1/9), I'll be wrapping up a short AI/ML bootcamp hosted at Amazon. We covered a ton of use-cases for this technology, including some applications that fit perfectly into Milo's scope of services. My goal for the month is to extract line-items from a restaurant bill/reciept with its context intact using this technology. In the business world, I recently restructured my startup as a Delaware C-Corporation in preparation for future funding. For now, I am focused on a career, and intend on building this company as a side-project. Starting a company has definitely been good practice though. I call it <b> super-full-stack development. </b>
+            I'm currently working on AI/ML solutions using AWS for React Native applications. On Thursday (1/9), I’ll be wrapping up a short AI/ML bootcamp hosted at Amazon. We covered a ton of use-cases for this technology, including some applications that fit perfectly into Milo's scope of services. My personal goal for the month is to extract line-items from a restaurant bill/receipt with its context intact using this technology. I am also about to release a new sound collection for my audio engineering side business. In the business world, I recently restructured my startup as a Delaware C-Corporation in preparation for future funding. For now, I am focused on a career, and intend on building this company as a side-project. Starting a company has definitely been good practice though. <b> I call it super-full-stack development. </b>
             <br />
             <br />
-            Now lets talk about culture. Culture is the foundation of a company. Culture is equally as important as the product when it comes to a company's success. When asking someone what they do for work, listen closely to their response. Do they tell you about the company, or do they tell you about their position & responsibilities? As much as we hate admitting it, a lot of our self-worth comes from our job. If that person is invested in their company, they are guarenteed to talk about the company instead of their job. 
+            Now let's talk about culture. Culture is the foundation of a company. Culture is equally as important as the product when it comes to a company's success. When asking someone what they do for work, listen closely to their response. Do they tell you about the company, or do they tell you about their position & responsibilities? As much as we hate admitting it, a lot of our self-worth comes from our job. If that person is invested in their company, they are guaranteed to talk about the company before their specific job. When asked about university, the last thing I want to do is talk about the school itself. It was a culture that excluded me. In return they lost my support, as well as the support of those who know my story. I don't want to be in that situation again. I want to hear to every voice, concern, opinion, discovery, etc..., and learn from it. I just need to find somewhere that will do the same for me.
             <br />
             <br />
+              <div   style={{
+            fontFamily: "Milo-medium",
+            fontSize: "24px",
+            fontWeight: "700",}}> That is why I'm reaching out to Milo</div>
+            <br />
+          
             <h3
               style={{
                 fontFamily: "Milo-body",
