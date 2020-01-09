@@ -52,25 +52,17 @@ class Milo extends Component {
 
         <div className="milo-body-container">
           <div className="blob"></div>
-          <h1 className="milo-body-title"> Placeholder blah blah</h1>
+          <h1 className="milo-body-title"> Stack + Culture</h1>
 
           <p className="milo-p">
-            My path to becoming a software engineer was a bit unusual. From a
-            young age, I began experimenting with audio engineering. As I
-            continued my education, audio synthesis and production were my
-            creative outlets that helped me balance my aptitude for math,
-            analytics and business with my love for creating. It was a textbook
-            struggle between left-brain / right-brain. I wasn’t satisfied with
-            just one side..
+            I won't bore you with the tech/career fluff, as I'm sure you've heard enough by now. We work in the same stack. This position is a great fit for me. I'd like to use this section to talk about what I've been up to recently, and how it can contribute to Milo.
+            
             <br />
             <br />
-            After moving into the professional world, that balance was thrown
-            off. I was left searching for that creative, yet analytical part of
-            my life again. I missed waking up and counting down the minutes
-            until I could get back to work. I quit my job and began coding 12+
-            hours a day, and I loved every second of it. Becoming a developer
-            has given me the tools to succeed not only in my professional life,
-            but my personal life as well.
+            I'm currently working on AI/ML solutions using AWS for React Native applications. On Thursday (1/9), I'll be wrapping up a short AI/ML bootcamp hosted at Amazon. We covered a ton of use-cases for this technology, including some applications that fit perfectly into Milo's scope of services. My goal for the month is to extract line-items from a restaurant bill/reciept with its context intact using this technology. In the business world, I recently restructured my startup as a Delaware C-Corporation in preparation for future funding. For now, I am focused on a career, and intend on building this company as a side-project. Starting a company has definitely been good practice though. I call it <b> super-full-stack development. </b>
+            <br />
+            <br />
+            Now lets talk about culture. Culture is the foundation of a company. Culture is equally as important as the product when it comes to a company's success. When asking someone what they do for work, listen closely to their response. Do they tell you about the company, or do they tell you about their position & responsibilities? As much as we hate admitting it, a lot of our self-worth comes from our job. If that person is invested in their company, they are guarenteed to talk about the company instead of their job.
             <br />
             <br />
             <h3
@@ -81,7 +73,7 @@ class Milo extends Component {
                 fontSize: "22px"
               }}
             >
-              My passion has become my profession, and I couldn’t be happier.
+              
             </h3>
           </p>
         </div>

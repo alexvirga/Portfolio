@@ -696,10 +696,10 @@ ul {
   position: absolute;
   top: 0;
   right: 76px;
-  animation: TwistLeftRight 2s infinite linear
+  animation: MoveCollar 2s infinite linear
 }
 
-@keyframes TwistLeftRight {
+@keyframes MoveCollar {
   0% {
       transform: rotate(0deg)
   }
