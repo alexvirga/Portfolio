@@ -10,8 +10,7 @@
 .app-align {
   display: flex;
   height: 100vh;
-  background-image: url("https://i.imgur.com/H6rKb5U.png");
-  background-size: 20%;
+  background-size: 10%;
   background-repeat: no-repeat;
   background-position: 30vw
 
@@ -516,7 +515,7 @@
   border-right-style: solid;
   border-right-width: 7px;
   border-color: #191414;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Milo-medium";
 }
 
 
@@ -530,15 +529,32 @@
 .nav-style-milo:hover {
   transform: scale(1.2);
   text-decoration: none;
+  color: black
 }
 
 
 .milo-header-container{
-  background-color: #FFFF;
-
+  /* background-color: #FFFF; */
+  background-color: #F8F2ED;
+  padding: 0 78px;
+  padding-top: 60px;
   display: flex;
-  justify-content: center;
+  
+
 }
+
+/* .blob{
+  position: absolute;
+  right: -14px;
+  top: -143px;
+  width: 369px;
+  height: 513px;
+  background-image: url(https://i.imgur.com/NGUpN59.png);
+  background-size: 239px;
+  background-repeat: no-repeat;
+  transform: rotate(90deg);
+
+} */
 .milo-header-title{
   margin-top: 5vh;
   margin-bottom: 5vh;
@@ -550,25 +566,28 @@
   font-weight: 600;
   text-rendering: optimizeLegibility;
   color: black;
-  align-items: center;
-  justify-content: center;
-  max-width: 650px;
-  padding: 0 78px;
+  z-index: 1;
+
+
+  
 }
 
-.milo-header-container {
-  justify-content: center;
-}
+
 
 .milo-body-title{
-  display: flex;
-  margin-top: 0vh;
-  margin-left: 15%;
-  margin-right: 15%;
-  font-family: 'Circular-header';
-  font-size: 50px;
-  color:#191414;
-  font-weight: 900;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: 'Milo-bold';
+  font-size: 62px;
+  line-height: 72px;
+  font-weight: 600;
+  text-rendering: optimizeLegibility;
+  color: black;
+  z-index: 1;
+
+
 }
 
 .nav-name-milo {
@@ -578,12 +597,15 @@
   width: 100%;
   padding-top: 7vh;
   justify-content: center;
-  font-family: 'Circular-navname';
   text-align: center;
+  font-family: "Milo-medium"
 }
 
 .milo-body-container{
-  background-color: #F8F2ED;
+  position: relative;
+  justify-content: center;
+  /* background-color: #F8F2ED; */
+  background-color: #FFFF;
   display: "flex";
   align-content: "center";
   padding-bottom: 30px;
@@ -611,10 +633,9 @@
 
 
 .milo-p{
-  font-family: "Circular-p";
+  font-family: "Milo-body";
   align-content: center;
-  margin-left: 15%;
-  margin-right: 15%
+
 }
 
 
@@ -623,3 +644,81 @@
 ul {
   padding-inline-start: 0px;
 }
+
+.leash {
+  position: relative;
+  z-index: 0
+}
+
+.leash .leash-part-one {
+  position: relative;
+  background-color: #FFFF;
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: -200px;
+  z-index: -1
+}
+
+.leash .leash-part-one .leash-part-two {
+  position: relative;
+  background-color: #F8F2ED;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin: auto;
+  top: 100px;
+  z-index: 0
+}
+
+.leash .leash-part-three {
+  position: relative;
+  background-color: #E8C2A3;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin: auto;
+  transition-duration: 0.3s;
+  z-index: 0
+}
+
+.content-page-milo ::selection {
+  background: #FECC15; /* WebKit/Blink Browsers */
+}
+
+.leash-part-three:hover {
+  background-color: #FECC15
+  
+}
+
+.leash.large-background {
+  position: absolute;
+  top: 0;
+  right: 76px;
+  animation: TwistLeftRight 2s infinite linear
+}
+
+@keyframes TwistLeftRight {
+  0% {
+      transform: rotate(0deg)
+  }
+
+  25% {
+      transform: rotate(10deg)
+  }
+
+  50% {
+      transform: rotate(0deg)
+  }
+
+  75% {
+      transform: rotate(-10deg)
+  }
+
+  100% {
+      transform: rotate(0deg)
+  }
+}
+
+

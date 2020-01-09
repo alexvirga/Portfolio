@@ -37,5 +37,15 @@ code {
   src: url("./fonts/milo-bold-condensed.otf") format("opentype");
 }
 
+@font-face {
+  font-family: "Milo-body";
+  src: url("./fonts/milo-body.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Milo-medium";
+  src: url("./fonts/milo-medium.otf") format("opentype");
+}
+
 
 
