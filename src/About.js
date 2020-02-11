@@ -24,7 +24,7 @@ class About extends Component {
         <div style={{display: "flex", flexDirection: "column", justifyItems: "center", backgroundColor: "#efefef", alignItems: "center"}}>
           <h1 className="about-page-body-header"> Let me introduce myself.
           </h1>
-          <p className="about-page-p"> I'm relatively new to development. In May 2019, I left my job in marketing to immerse myself in code. Since then, I've developed games, finance applications, social media platforms, and much much more. Some would call it the "honeymoon phase", but I truly love what I do. I call it the "Waking up at 3am and watching udemy tutorials out of excitement for tomorrow" phase.  Am I digging myself into a hole? I'll stop. Here's a picture of me in a trendy circle. </p>
+          <p className="about-page-p"> I’m a Full-stack web/mobile developer with additional experience in marketing, data analytics, and audio engineering. Last year, I left my job in marketing to fully immerse myself in code. Since then, I've developed games, finance applications, social media platforms, and much much more. Some would call it the "honeymoon phase", but I truly love what I do. I call it the "Waking up at 3am and watching udemy tutorials out of excitement for tomorrow" phase. </p>
          
 
 
@@ -58,6 +58,7 @@ class About extends Component {
         <div style={{display: "flex", justifyItems: "center", flexDirection: "column"}}>
         <h2 style={{fontFamily: "Circular-header", fontSize: "20px", marginBotton: "0px"}}> Back-end</h2>
         <ul style={{listStyle: "none",textAlign: "center"}}>
+          <li> Node.js</li>
           <li> Ruby</li>
           <li> Rails</li>
           <li> SQL</li>
