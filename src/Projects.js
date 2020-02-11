@@ -31,10 +31,7 @@ class Projects extends Component {
             {" "}
             Here's what I've been up to.{" "}
           </h1>
-          <p className="projects-header-subtitle">
-            {" "}
-            Currently under construction
-          </p>
+
         </div>
 
         {/*-------------Project polfolio-------------- */}
